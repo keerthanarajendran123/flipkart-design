@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Fashion",
-        "image": "src/assets/images/fashion.jpg",
+        "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?cs=srgb&dl=pexels-jmendezrf-1536619.jpg&fm=jpg",
         "subcategories": [
             {
                 "id": 21,
