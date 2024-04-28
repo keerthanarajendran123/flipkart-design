@@ -8,7 +8,7 @@
   }
   
   .logo {
-    width: 150px;
+    width: 40px;
     margin-right: 20px;
   }
   
@@ -31,7 +31,7 @@
     padding-left: 2.5rem;
     border: 1px solid white;
     width: 89%;
-    color: #000;
+    color: #fff;
     background: #1976d2;
     height: 2rem;
     border-radius: 0.5rem;
@@ -71,3 +71,7 @@
     color: white;
   }
   
+  ::placeholder {
+    color: #fff;
+    opacity: 1;
+  }

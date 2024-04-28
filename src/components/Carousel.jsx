@@ -28,19 +28,15 @@ const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const images = [
     {
-      imgPath: 'src/assets/images/flights.PNG',
+      imgPath: 'https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/4e1683644b55c4d5.jpg?q=20',
       width: '100%',
     },
     {
-      imgPath: 'images/laptop-banner.PNG',
+      imgPath: 'https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/f306509b80281322.png?q=20',
       width: '100%',
     },
     {
-      imgPath: 'images/Capture.PNG',
-      width: '100%',
-    },
-    {
-      imgPath: 'images/lowest.PNG',
+      imgPath: 'https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/aa1b2bdcf519b468.jpg?q=20',
       width: '100%',
     },
   ];
