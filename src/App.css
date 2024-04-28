@@ -1,0 +1,168 @@
+
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, div, span, input, button {
+    font-family: inherit; 
+  }
+.search-result-page {
+    padding: 20px;
+  }
+  
+  .search-results-heading {
+    margin-bottom: 10px;
+  }
+  
+  .results-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .result-card {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .card-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .item-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* App.css */
+.home-container {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+  }
+  
+
+  /* App.css */
+.dropdown-container {
+    display: inline-block;
+    position: relative;
+    margin-right: 5%;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    height: 40px;
+  }
+  
+  .dropdown-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+  }
+  
+  .dropdown-text {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 9;
+  }
+  
+  .nested-dropdown {
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .nested-dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    font-family: 'Roboto';
+  }
+  
+  .nested-dropdown-text {
+    font-size: 0.8rem;
+  }
+  
+  .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 10rem;
+    font-family: 'Roboto';
+    font-size: small;
+  }
+  
+  .subsubmenu-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+
+  /* App.css */
+.card-gallery-container {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .gallery-title {
+    font-size: 1.4rem;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+  }
+  
+  .card-item {
+    max-width: 250px; 
+    transition: transform 0.3s; 
+  }
+  
+  .card-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-image {
+    height: 200px; 
+    width: 100%; 
+  }
+  
+  .card-label {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  

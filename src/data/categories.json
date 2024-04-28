@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Fashion",
+        "image": "/images/fashion.jpg",
+        "subcategories": [
+            {
+                "id": 21,
+                "name": "Men's Top Wear",
+                "image": "/images/mens_top_wear.jpg",
+                "submenu": [
+                    { "id": 211, "name": "Men's T-shirts", "image": "/images/mens_tshirts.jpg" },
+                    { "id": 212, "name": "Men's Casual Shirts", "image": "/images/mens_casual_shirts.jpg" },
+                    { "id": 213, "name": "Men's Formal Shirts", "image": "/images/mens_formal_shirts.jpg" }
+                ]
+            },
+            { 
+                "id": 22, 
+                "name": "Women Ethnic", 
+                "image": "/images/women_ethnic.jpg",
+                "submenu": [
+                    { "id": 221, "name": "Women Sarees", "image": "/images/women_sarees.jpg" },
+                    { "id": 222, "name": "Women Kurtas & Kurtis", "image": "/images/women_kurtas_kurtis.jpg" },
+                    { "id": 223, "name": "Ethnic Dresses", "image": "/images/ethnic_dresses.jpg" }
+                ] 
+            },
+            { 
+                "id": 23, 
+                "name": "Kids", 
+                "image": "/images/kids.jpg",
+                "submenu": [
+                    { "id": 231, "name": "Girls Dresses", "image": "/images/girls_dresses.jpg" },
+                    { "id": 232, "name": "Boys & Girls Tshirts", "image": "/images/boys_girls_tshirts.jpg" },
+                    { "id": 233, "name": "Boys & Girls jeans", "image": "/images/boys_girls_jeans.jpg" }
+                ] 
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Electronics",
+        "image": "/images/electronics.jpg",
+        "subcategories": [
+            {
+                "id": 31,
+                "name": "Audio",
+                "image": "/images/audio.jpg",
+                "submenu": [
+                    { "id": 311, "name": "Bluetooth Headphones", "image": "/images/bluetooth_headphones.jpg" },
+                    { "id": 312, "name": "Wired Headphones", "image": "/images/wired_headphones.jpg" },
+                    { "id": 313, "name": "True Wireless Earbuds", "image": "/images/true_wireless_earbuds.jpg" }
+                ]
+            },
+            { 
+                "id": 32, 
+                "name": "Gaming", 
+                "image": "/images/gaming.jpg",
+                "submenu": [
+                    { "id": 321, "name": "Gaming Mouse", "image": "/images/gaming_mouse.jpg" },
+                    { "id": 322, "name": "Gaming Pads", "image": "/images/gaming_pads.jpg" },
+                    { "id": 323, "name": "Gaming Keypads", "image": "/images/gaming_keypads.jpg" }
+                ] 
+            },
+            { 
+                "id": 33, 
+                "name": "Laptop Accessories", 
+                "image": "/images/laptop_accessories.jpg",
+                "submenu": [
+                    { "id": 331, "name": "Laptop Bags", "image": "/images/laptop_bags.jpg" },
+                    { "id": 332, "name": "Laptop Chargers", "image": "/images/laptop_chargers.jpg" },
+                    { "id": 333, "name": "Laptop Stands", "image": "/images/laptop_stands.jpg" }
+                ] 
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Grocery",
+        "image": "/images/grocery.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cosmetics",
+        "image": "/images/beauty.jpg",
+        "subcategories": [
+            {
+                "id": 41,
+                "name": "Baby products",
+                "image": "/images/baby_products.jpg",
+                "submenu": [
+                    { "id": 411, "name": "Baby wipes", "image": "/images/baby_wipes.jpg" },
+                    { "id": 412, "name": "Baby shampoos", "image": "/images/baby_shampoos.jpg" },
+                    { "id": 413, "name": "Baby Lotions", "image": "/images/baby_lotions.jpg" }
+                ]
+            },
+            { 
+                "id": 42, 
+                "name": "Eye makeup", 
+                "image": "/images/eye_makeup.jpg",
+                "submenu": [
+                    { "id": 421, "name": "Eyeliners", "image": "/images/eyeliners.jpg" },
+                    { "id": 422, "name": "Eye shadows", "image": "/images/eye_shadows.jpg" },
+                    { "id": 423, "name": "Mascaras", "image": "/images/mascaras.jpg" }
+                ] 
+            },
+            { 
+                "id": 43, 
+                "name": "Fragrance", 
+                "image": "/images/fragrance.jpg",
+                "submenu": [
+                    { "id": 431, "name": "perfumes", "image": "/images/perfume.jpg" },
+                    { "id": 432, "name": "powders", "image": "/images/powders.jpg" },
+                    { "id": 433, "name": "colognes", "image": "/images/colognes.jpg" }
+                ] 
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Appliances",
+        "image": "/images/appliances.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Mobiles",
+        "image": "/images/mobile1.jpg"
+    }
+]
