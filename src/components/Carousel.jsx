@@ -28,7 +28,7 @@ const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const images = [
     {
-      imgPath: 'images/flights.PNG',
+      imgPath: 'src/assets/images/flights.PNG',
       width: '100%',
     },
     {
