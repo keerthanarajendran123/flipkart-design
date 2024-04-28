@@ -4,8 +4,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import SearchResultPage from './components/SearchResultPage';
 import categoriesData from './data/categories.json';
-
-// Import your CSS file
 import './App.css';
 
 function App() {
